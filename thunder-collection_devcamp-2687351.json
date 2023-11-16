@@ -1,0 +1,484 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "devcamp-2687351",
+    "dateExported": "2023-11-11T00:06:44.028Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "cd014b8d-3ff4-4ca9-bf00-fdfb14383643",
+            "name": "bootcamps",
+            "containerId": "",
+            "created": "2023-11-10T22:02:57.861Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "1f36e142-8a31-457e-bf00-188c34689afc",
+            "name": "courses",
+            "containerId": "",
+            "created": "2023-11-10T22:02:57.862Z",
+            "sortNum": 20000
+        },
+        {
+            "_id": "31b8bf18-d1ee-41ad-ab85-762f3e5a4cc9",
+            "name": "reviews",
+            "containerId": "",
+            "created": "2023-11-10T22:02:57.863Z",
+            "sortNum": 30000
+        },
+        {
+            "_id": "214df795-5bf7-414d-bb6c-aae262071075",
+            "name": "users",
+            "containerId": "",
+            "created": "2023-11-10T23:13:06.006Z",
+            "sortNum": 40000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "091b9c89-fcdf-4c59-a86c-ccc758634ca8",
+            "colId": "0442205b-bb91-445c-9407-8dc1de55d611",
+            "containerId": "cd014b8d-3ff4-4ca9-bf00-fdfb14383643",
+            "name": "traer todos los bootcamps",
+            "url": "http://127.0.0.1:8888/api/v1/devcamps/bootcamps",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-11-10T22:02:57.861Z",
+            "modified": "2023-11-10T22:03:15.876Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "70ab5733-4d7a-4022-bcd6-bdb7a554a6b0",
+            "colId": "0442205b-bb91-445c-9407-8dc1de55d611",
+            "containerId": "1f36e142-8a31-457e-bf00-188c34689afc",
+            "name": "traer todos los courses",
+            "url": "http://127.0.0.1:8888/api/v1/devcamps/courses/",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-11-10T22:02:57.864Z",
+            "modified": "2023-11-10T22:27:04.559Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "e9c16aee-55ac-4be7-b118-be0b539cab8d",
+            "colId": "0442205b-bb91-445c-9407-8dc1de55d611",
+            "containerId": "31b8bf18-d1ee-41ad-ab85-762f3e5a4cc9",
+            "name": "traer todas las reviews",
+            "url": "http://127.0.0.1:8888/api/v1/devcamps/reviews",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-11-10T22:02:57.865Z",
+            "modified": "2023-11-10T23:58:50.730Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "926efda3-e359-47d9-b352-1bf839b7b6fb",
+            "colId": "0442205b-bb91-445c-9407-8dc1de55d611",
+            "containerId": "1f36e142-8a31-457e-bf00-188c34689afc",
+            "name": "traer courses por id",
+            "url": "http://127.0.0.1:8888/api/v1/devcamps/courses/654e70cabe8dd41c1a21ae2a",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-11-10T22:02:57.874Z",
+            "modified": "2023-11-10T22:33:09.068Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "0c9124e2-0c59-4673-b50b-f1df7d583517",
+            "colId": "0442205b-bb91-445c-9407-8dc1de55d611",
+            "containerId": "cd014b8d-3ff4-4ca9-bf00-fdfb14383643",
+            "name": "traer bootcamp por id",
+            "url": "http://127.0.0.1:8888/api/v1/devcamps/bootcamps/654e69e2447f5bf3142b6512",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-11-10T22:02:57.866Z",
+            "modified": "2023-11-10T22:36:44.876Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "b7552c43-3f99-4a73-b82c-67e9b09c6fad",
+            "colId": "0442205b-bb91-445c-9407-8dc1de55d611",
+            "containerId": "1f36e142-8a31-457e-bf00-188c34689afc",
+            "name": "traer courses por id con error ",
+            "url": "http://127.0.0.1:8888/api/v1/devcamps/courses/1",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-11-10T22:02:57.875Z",
+            "modified": "2023-11-10T22:31:26.359Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "f85f5f95-6116-48ca-908a-dd12efb88a26",
+            "colId": "0442205b-bb91-445c-9407-8dc1de55d611",
+            "containerId": "31b8bf18-d1ee-41ad-ab85-762f3e5a4cc9",
+            "name": "traer reviews por id ",
+            "url": "http://127.0.0.1:8888/api/v1/devcamps/reviews/654ec313ac0ffa475b98c9e0",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-11-10T22:02:57.882Z",
+            "modified": "2023-11-11T00:01:27.021Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "2306a0a8-0a78-4758-aeae-033cf907e54c",
+            "colId": "0442205b-bb91-445c-9407-8dc1de55d611",
+            "containerId": "cd014b8d-3ff4-4ca9-bf00-fdfb14383643",
+            "name": "traer bootcamp por id con error",
+            "url": "http://127.0.0.1:8888/api/v1/devcamp-2687351/bootcamps/1",
+            "method": "GET",
+            "sortNum": 45000,
+            "created": "2023-11-10T22:02:57.870Z",
+            "modified": "2023-11-10T22:02:57.870Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "71c9de9a-cbe7-425e-bb9f-385dfa331167",
+            "colId": "0442205b-bb91-445c-9407-8dc1de55d611",
+            "containerId": "cd014b8d-3ff4-4ca9-bf00-fdfb14383643",
+            "name": "crear un nuevo bootcamp",
+            "url": "http://127.0.0.1:8888/api/v1/devcamps/bootcamps",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2023-11-10T22:02:57.867Z",
+            "modified": "2023-11-10T22:07:38.548Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"Red Hat Linux Bootcamps\",\n  \"phone\": 3110589589,\n  \"address\": \"SENA calle 52\",\n  \"topics\" : [\"DevOps\"],\n  \"createAt\":\"2023-11-2\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "bada4125-39da-4565-b27d-15e8ef413b23",
+            "colId": "0442205b-bb91-445c-9407-8dc1de55d611",
+            "containerId": "1f36e142-8a31-457e-bf00-188c34689afc",
+            "name": "crear un nuevo course ",
+            "url": "http://127.0.0.1:8888/api/v1/devcamps/courses",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2023-11-10T22:02:57.876Z",
+            "modified": "2023-11-10T22:43:17.385Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\":\"cursito de back\",\n  \"description\":\"esta bueno\",\n  \"weeks\":9,\n  \"enroll_cost\":10.000,\n  \"minimum_skill\":\"Beginner\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "ffa3b010-5982-4cf1-b1a9-cb50edf50893",
+            "colId": "0442205b-bb91-445c-9407-8dc1de55d611",
+            "containerId": "cd014b8d-3ff4-4ca9-bf00-fdfb14383643",
+            "name": "crear un nuevo bootcamp con error",
+            "url": "http://127.0.0.1:8888/api/v1/devcamps/bootcamps",
+            "method": "POST",
+            "sortNum": 55000,
+            "created": "2023-11-10T22:02:57.873Z",
+            "modified": "2023-11-10T22:06:43.924Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n\n  \"phone\": 3110589589,\n  \"address\": \"SENA calle 52\",\n  \"topics\" : [\"DevOps\"],\n  \"createAt\":\"2023-11-2\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "dfea59f1-8361-45d3-aae1-e3de7ef56034",
+            "colId": "0442205b-bb91-445c-9407-8dc1de55d611",
+            "containerId": "cd014b8d-3ff4-4ca9-bf00-fdfb14383643",
+            "name": "eliminar bootcamp por id  ",
+            "url": "http://127.0.0.1:8888/api/v1/devcamps/bootcamps/654ea9aabb829e28693b9071",
+            "method": "DELETE",
+            "sortNum": 60000,
+            "created": "2023-11-10T22:02:57.868Z",
+            "modified": "2023-11-10T22:14:13.095Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "aad0cd70-5814-44a1-8acc-00dc97200517",
+            "colId": "0442205b-bb91-445c-9407-8dc1de55d611",
+            "containerId": "1f36e142-8a31-457e-bf00-188c34689afc",
+            "name": "crear un nuevo course con error ",
+            "url": "http://127.0.0.1:8888/api/v1/devcamps/courses",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2023-11-10T22:02:57.877Z",
+            "modified": "2023-11-10T22:44:03.822Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"description\": \"Curso FrontEnd\",\n  \"weeks\": 6,\n  \"tuition\" : 564984856,\n  \"minimumSkill\" : [\"beginner\"],\n  \"createAt\":\"2023-11-2\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "bbd66b4e-dfa1-44cf-9fc4-ebe0f28bf355",
+            "colId": "0442205b-bb91-445c-9407-8dc1de55d611",
+            "containerId": "31b8bf18-d1ee-41ad-ab85-762f3e5a4cc9",
+            "name": "crear una review",
+            "url": "http://127.0.0.1:8888/api/v1/devcamps/reviews",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2023-11-10T22:02:57.884Z",
+            "modified": "2023-11-10T23:57:43.499Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\":\"curso front\",\n  \"text\":\"esta bueno lo recomiendo bastante\",\n  \"rating\":3,\n  \"bootcamp_id\":\"2\",\n  \"user_id\":\"3\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "6685dfa9-e92e-4c05-b7ca-14cbaf316115",
+            "colId": "0442205b-bb91-445c-9407-8dc1de55d611",
+            "containerId": "cd014b8d-3ff4-4ca9-bf00-fdfb14383643",
+            "name": "eliminar bootcamp por id con error",
+            "url": "http://127.0.0.1:8888/api/v1/devcamps/bootcamps/6",
+            "method": "DELETE",
+            "sortNum": 65000,
+            "created": "2023-11-10T22:02:57.871Z",
+            "modified": "2023-11-10T22:13:54.351Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "04ff5d17-4341-41e7-a285-d29676162c51",
+            "colId": "0442205b-bb91-445c-9407-8dc1de55d611",
+            "containerId": "cd014b8d-3ff4-4ca9-bf00-fdfb14383643",
+            "name": "actualizar bootcamp por id ",
+            "url": "http://127.0.0.1:8888/api/v1/devcamps/bootcamps/654ea9aabb829e28693b9071",
+            "method": "PUT",
+            "sortNum": 70000,
+            "created": "2023-11-10T22:02:57.869Z",
+            "modified": "2023-11-10T22:08:07.823Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"address\": \"SENA calle 63\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "062f096b-5cad-42ad-a36a-4bc9da866ccb",
+            "colId": "0442205b-bb91-445c-9407-8dc1de55d611",
+            "containerId": "1f36e142-8a31-457e-bf00-188c34689afc",
+            "name": "eliminar course por id   ",
+            "url": "http://127.0.0.1:8888/api/v1/devcamps/courses/654e70cabe8dd41c1a21ae2a",
+            "method": "DELETE",
+            "sortNum": 70000,
+            "created": "2023-11-10T22:02:57.878Z",
+            "modified": "2023-11-10T22:44:44.112Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "028213bd-9a9f-4a8c-99f5-219469b92261",
+            "colId": "0442205b-bb91-445c-9407-8dc1de55d611",
+            "containerId": "cd014b8d-3ff4-4ca9-bf00-fdfb14383643",
+            "name": "actualizar bootcamp por id con error",
+            "url": "http://127.0.0.1:8888/api/v1/devcamps/bootcamps/6",
+            "method": "PUT",
+            "sortNum": 80000,
+            "created": "2023-11-10T22:02:57.872Z",
+            "modified": "2023-11-10T22:13:43.654Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"address\": \"SENA calle 63\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "9673ed49-6635-4e50-a934-ee351db9a0dc",
+            "colId": "0442205b-bb91-445c-9407-8dc1de55d611",
+            "containerId": "1f36e142-8a31-457e-bf00-188c34689afc",
+            "name": "eliminar courses por id con error ",
+            "url": "http://127.0.0.1:8888/api/v1/devcamp-2687351/cursos/6",
+            "method": "DELETE",
+            "sortNum": 80000,
+            "created": "2023-11-10T22:02:57.879Z",
+            "modified": "2023-11-10T22:02:57.879Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "53b13696-f9ad-4a68-b456-4f80cccd0100",
+            "colId": "0442205b-bb91-445c-9407-8dc1de55d611",
+            "containerId": "1f36e142-8a31-457e-bf00-188c34689afc",
+            "name": "actualizar course por id  ",
+            "url": "http://127.0.0.1:8888/api/v1/devcamps/courses/654ea767ff3aff3d6e04a9eb",
+            "method": "PUT",
+            "sortNum": 90000,
+            "created": "2023-11-10T22:02:57.880Z",
+            "modified": "2023-11-10T22:49:06.896Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\":\"cursito de front\",\n  \"description\":\"mejoro\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "f4886c58-2f6d-48f3-a1b4-0642b7903e2b",
+            "colId": "0442205b-bb91-445c-9407-8dc1de55d611",
+            "containerId": "31b8bf18-d1ee-41ad-ab85-762f3e5a4cc9",
+            "name": "eliminar review",
+            "url": "http://127.0.0.1:8888/api/v1/devcamps/reviews/654ec3779628450a9f5a2cf4",
+            "method": "DELETE",
+            "sortNum": 90000,
+            "created": "2023-11-10T22:02:57.888Z",
+            "modified": "2023-11-11T00:04:43.764Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "875482b6-8ab4-40a2-9baf-2977512f3d5a",
+            "colId": "0442205b-bb91-445c-9407-8dc1de55d611",
+            "containerId": "1f36e142-8a31-457e-bf00-188c34689afc",
+            "name": "actualizar course por id con error ",
+            "url": "http://127.0.0.1:8888/api/v1/devcamps/courses/6",
+            "method": "PUT",
+            "sortNum": 100000,
+            "created": "2023-11-10T22:02:57.881Z",
+            "modified": "2023-11-10T22:49:18.667Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"weeks\": 5\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "a078eb3d-89a3-4937-8947-ccab486d935d",
+            "colId": "0442205b-bb91-445c-9407-8dc1de55d611",
+            "containerId": "31b8bf18-d1ee-41ad-ab85-762f3e5a4cc9",
+            "name": "actualizar review",
+            "url": "http://127.0.0.1:8888/api/v1/devcamps/reviews/654ec313ac0ffa475b98c9e0",
+            "method": "PUT",
+            "sortNum": 100000,
+            "created": "2023-11-10T22:02:57.889Z",
+            "modified": "2023-11-11T00:03:35.203Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"user_id\":\"2\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "d11de67d-30cd-4786-a0f2-32eb5939fd0b",
+            "colId": "0442205b-bb91-445c-9407-8dc1de55d611",
+            "containerId": "214df795-5bf7-414d-bb6c-aae262071075",
+            "name": "create user",
+            "url": "http://127.0.0.1:8888/api/v1/devcamps/users/register",
+            "method": "POST",
+            "sortNum": 120000,
+            "created": "2023-11-10T23:13:11.472Z",
+            "modified": "2023-11-10T23:30:08.605Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"Julian\",\n  \"email\":\"julian@gmail.com\",\n  \"role\":\"user\",\n  \"password\":\"123456789\"\n  \n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
